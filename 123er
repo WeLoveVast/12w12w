@@ -1,6 +1,6 @@
-local library = {flags = {}, windows = {}, open = true}
+local Library = {flags = {}, windows = {}, open = true}
 
-_G.library = library
+_G.Library = Library
 
 --Services
 local runService = game:GetService"RunService"
